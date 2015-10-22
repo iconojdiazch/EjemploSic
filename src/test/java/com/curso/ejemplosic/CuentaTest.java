@@ -40,8 +40,8 @@ public class CuentaTest {
     @Test
     public void ingresoEnNuevaCuenta() {
         Cuenta c = new Cuenta();
-        c.ingresar(100.0d);
-        assertTrue(c.saldo() == 100.0d);
+        c.ingresar(200.0d);
+        assertTrue(c.saldo() == 200.0d);
     }
 
 }
