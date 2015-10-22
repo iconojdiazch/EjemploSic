@@ -10,19 +10,20 @@ package com.curso.ejemplosic;
  * @author usuario
  */
 public class Cuenta {
-
+double saldo;
     Cuenta(double d) {
+        saldo=d;
     }
 
     Cuenta() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     void ingresar(double d) {
+        saldo += d;
     }
 
     double saldo() {
-        return 200.0d;
+        return saldo;
     }
 
 }
