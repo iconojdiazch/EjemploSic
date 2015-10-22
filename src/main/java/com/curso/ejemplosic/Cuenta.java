@@ -11,6 +11,13 @@ package com.curso.ejemplosic;
  */
 public class Cuenta {
 
+    Cuenta(double d) {
+    }
+
+    Cuenta() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     void ingresar(double d) {
     }
 
