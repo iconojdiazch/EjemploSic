@@ -40,9 +40,10 @@ public class CuentaTest {
     @Test
     public void ingresoEnNuevaCuenta() {
         System.out.println("En ingresoEnNuevaCuenta");
+        System.out.println("Fallo aposta");
         Cuenta c = new Cuenta();
         c.ingresar(100.0d);
-        assertTrue(c.saldo() == 100.0d);
+        assertTrue(c.saldo() == 101.0d);
     }
     @Test
     public void ingresoEnCuentaConSaldo() {
