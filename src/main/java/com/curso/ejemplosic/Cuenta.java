@@ -10,9 +10,11 @@ package com.curso.ejemplosic;
  * @author usuario
  */
 public class Cuenta {
-double saldo;
+
+    double saldo;
+//Comentario de prueba
     Cuenta(double d) {
-        saldo=d;
+        saldo = d;
     }
 
     Cuenta() {

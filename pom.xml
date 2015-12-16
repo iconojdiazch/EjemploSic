@@ -5,6 +5,36 @@
     <artifactId>EjemploSic</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
+    <scm>
+        <connection>		  
+            scm:svn:https://subversion.assembla.com/svn/cursorepo/trunk/primero/src
+        </connection>
+<!--        <developerConnection>
+            scm:svn:https://subversion.assembla.com/svn/cursorepo/trunk/primero/src
+        </developerConnection>-->
+        <developerConnection>scm:git:[fetch=]https://github.com/iconojdiazch/EjemploSic.git[push=]https://github.com/iconojdiazch/EjemploSic.git
+        </developerConnection>
+        <url>
+            https:https://github.com/iconojdiazch/EjemploSic.git
+        </url>
+    </scm>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>				
+                <artifactId>maven-scm-plugin</artifactId>
+                <version>1.9</version>
+                <configuration>
+                    <connectionType>
+                        developerConnection
+                    </connectionType>
+                    <username>iconojdiazch</username>
+                    <password>9713supede</password>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
