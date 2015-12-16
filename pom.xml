@@ -7,11 +7,8 @@
     <packaging>jar</packaging>
     <scm>
         <connection>		  
-            scm:svn:https://subversion.assembla.com/svn/cursorepo/trunk/primero/src
+            scm:git:https://github.com/iconojdiazch/EjemploSic.git
         </connection>
-<!--        <developerConnection>
-            scm:svn:https://subversion.assembla.com/svn/cursorepo/trunk/primero/src
-        </developerConnection>-->
         <developerConnection>scm:git:[fetch=]https://github.com/iconojdiazch/EjemploSic.git[push=]https://github.com/iconojdiazch/EjemploSic.git
         </developerConnection>
         <url>
