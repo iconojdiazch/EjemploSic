@@ -28,8 +28,8 @@
                     <connectionType>
                         developerConnection
                     </connectionType>
-                    <username>iconojdiazch</username>
-                    <password>9713supede</password>
+                    <username>usuario</username>
+                    <password>clave</password>
                 </configuration>
             </plugin>
         </plugins>
