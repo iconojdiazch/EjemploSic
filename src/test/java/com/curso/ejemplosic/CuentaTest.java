@@ -51,9 +51,4 @@ public class CuentaTest {
         c.ingresar(100.0d);
         assertTrue(c.saldo() == 200.0d);        
     }
-    @Test
-    public void fakeTest(){
-        assertTrue(true);
-        System.out.println("Fin fake test");
-    }
 }
