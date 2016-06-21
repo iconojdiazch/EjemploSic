@@ -22,6 +22,7 @@ public class Cuenta {
 
     void ingresar(double d) {
         saldo += d;
+        System.out.println("En ingresar");
     }
 
     double saldo() {
