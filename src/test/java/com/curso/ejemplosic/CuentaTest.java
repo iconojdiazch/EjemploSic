@@ -23,6 +23,7 @@ public class CuentaTest {
 
     @BeforeClass
     public static void setUpClass() {
+        System.out.println("Prueba de funcionamiento");
     }
 
     @AfterClass
