@@ -23,7 +23,7 @@ public class CuentaTest {
 
     @BeforeClass
     public static void setUpClass() {
-        System.out.println("Prueba de funcionamiento");
+        System.out.println("Prueba de funcionamiento 16 de julio de 2018");
     }
 
     @AfterClass
