@@ -12,7 +12,7 @@ package com.curso.ejemplosic;
 public class Cuenta {
 
     double saldo;
-//Comentario de prueba
+//Comentario de prueba modificado
     Cuenta(double d) {
         saldo = d;
     }
