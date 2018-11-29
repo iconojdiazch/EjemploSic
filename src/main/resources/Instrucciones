@@ -1,0 +1,5 @@
+1.- Ajustar en el pom.xml las urls del repositorio a vuestra cuenta de github
+2.- Introducir vuestro usuario y vuestra clave
+3.- Ejecutar mvn scm:diff y observar los resultados
+    (se genera también un archivo con extensión diff)
+4.- Ejecutar mvn site y obtervar las carpetas target\site y target\cobertura
